@@ -17,7 +17,7 @@
 
 
 # TODO 7:  Make Coffee
-# money_earned=0
+money_earned=0
 import data
 import random
 
