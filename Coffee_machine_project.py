@@ -17,8 +17,9 @@
 
 
 # TODO 7:  Make Coffee
-money_earned=0
+# money_earned=0
 import data
+import random
 
 
 def estimate_money(quarters, dimes, nickles, pennies):
@@ -96,7 +97,7 @@ while ((data.resources['water']>0) and (data.resources['milk']>0) and (data.reso
             print(f"Here is your {coffee_flavour} ☕️. Enjoy!")
 
     else:
-        print("Sorry that's not enough money. Money refunded.")
+        print(f"Sorry that's not enough money. Money refunded.")
 
     if change_money:
         update_report(coffee_flavour, money_given,change_money)
